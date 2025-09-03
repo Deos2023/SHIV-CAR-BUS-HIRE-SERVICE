@@ -138,19 +138,21 @@ export default function Contact() {
             </div>
             <div className="flex items-center space-x-4">
               <FaEnvelope className="text-amber-600 text-xl" />
-              <p className="text-gray-600">pappushah50598@gmail.com</p>
+              <p className="text-gray-600">pritam8890@gmail.com</p>
             </div>
 
             {/* Google Map */}
             <div className="mt-6">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.252095040334!2d88.4312!3d22.5824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275b502b23661%3A0x7c5b6dfc4b3dc9f1!2sSalt%20Lake%20Sector%20V!5e0!3m2!1sen!2sin!4v1692355445678!5m2!1sen!2sin"
+                src="https://www.google.com/maps?q=Shiv+Car+%26+Bus+Hire%2C+95%2C+Vivekananda+Park%2C+Ajoy+Nagar%2C+Mukundapur%2C+Kolkata%2C+West+Bengal+700099&output=embed"
                 width="100%"
                 height="250"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
                 className="rounded-lg shadow-md"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Shiv Car & Bus Hire Map"
               ></iframe>
             </div>
           </motion.div>

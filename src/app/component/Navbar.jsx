@@ -42,10 +42,14 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            {["Home", "About", "Services", "Contact"].map((item, i) => (
+            {["Home", "About", "Services", "Gallery", "Contact"].map((item, i) => (
               <a
                 key={i}
-                href={item === "Home" ? "/" : `/${item.toLowerCase().replace(" ", "")}`}
+                href={
+                  item === "Home"
+                    ? "/"
+                    : `/${item.toLowerCase().replace(" ", "")}`
+                }
                 className={`font-medium transition-colors duration-300 ${
                   isScrolled ? "text-gray-800 hover:text-amber-600" : "text-white hover:text-amber-300"
                 }`}
@@ -106,6 +110,13 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Services
+            </a>
+            <a
+              href="/gallery"
+              className="block text-gray-800 hover:text-amber-600 font-medium"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Gallery
             </a>
             <a
               href="/contact"

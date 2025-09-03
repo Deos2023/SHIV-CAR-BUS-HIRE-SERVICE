@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm md:text-base">
-            <p>&copy; {new Date().getFullYear()} SHIV CAR & BUS HIRE SERVICE. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} SHIV CAR & BUS HIRE SERVICE. All rights reserved. Website Developed & Maintained by Digital Exposure Online Services</p>
           </div>
         </div>
       </footer>

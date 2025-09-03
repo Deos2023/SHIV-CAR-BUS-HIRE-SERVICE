@@ -432,7 +432,25 @@ export default function Home() {
         </div>
       </section>
 
-     
+      {/* Map Section */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6 text-center">Our Location</h2>
+          <div className="w-full mx-auto rounded-lg shadow-md overflow-hidden" style={{maxWidth:'900px'}}>
+            <iframe
+              src="https://www.google.com/maps?q=Shiv+Car+%26+Bus+Hire%2C+95%2C+Vivekananda+Park%2C+Ajoy+Nagar%2C+Mukundapur%2C+Kolkata%2C+West+Bengal+700099&output=embed"
+              width="100%"
+              height="350"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              className="rounded-lg"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Shiv Car & Bus Hire Map"
+            ></iframe>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
