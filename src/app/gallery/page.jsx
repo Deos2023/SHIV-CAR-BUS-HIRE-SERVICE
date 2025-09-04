@@ -43,7 +43,7 @@ export default function GalleryPage() {
         transition={{ duration: 0.6 }}
         className="text-3xl md:text-5xl font-bold text-center mb-10 text-amber-700 drop-shadow-xl"
       >
-        Gallery</motion.h1>
+        </motion.h1>
       <motion.div
         className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 mx-auto max-w-7xl"
         initial="hidden"
