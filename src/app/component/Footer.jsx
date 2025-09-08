@@ -45,8 +45,12 @@ const Footer = () => {
                   <a href="tel:9804351651">9804351651</a>
                 </li>
                 <li className="flex items-center text-gray-400 text-sm md:text-base">
+                  <FaPhone className="mr-2 text-amber-400" />
+                  <a href="tel:7044106107">7044106107</a>
+                </li>
+                <li className="flex items-center text-gray-400 text-sm md:text-base">
                   <FaEnvelope className="mr-2 text-amber-400" />
-                  <a href="mailto:pritam8890@gmail.com">pritam8890@gmail.com</a>
+                  <a href="mailto:shivcarandbushireservice@gmail.com">shivcarandbushireservice@gmail.com</a>
                 </li>
               </ul>
             </div>

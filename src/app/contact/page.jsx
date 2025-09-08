@@ -138,13 +138,13 @@ export default function Contact() {
             </div>
             <div className="flex items-center space-x-4">
               <FaEnvelope className="text-amber-600 text-xl" />
-              <p className="text-gray-600">pritam8890@gmail.com</p>
+              <p className="text-gray-600">shivcarandbushireservice@gmail.com</p>
             </div>
 
             {/* Google Map */}
             <div className="mt-6">
               <iframe
-                src="https://www.google.com/maps?q=Shiv+Car+%26+Bus+Hire%2C+95%2C+Vivekananda+Park%2C+Ajoy+Nagar%2C+Mukundapur%2C+Kolkata%2C+West+Bengal+700099&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3527.932613675612!2d88.39168277529812!3d22.491814079549492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDI5JzMwLjUiTiA4OMKwMjMnMzkuMyJF!5e1!3m2!1sen!2sin!4v1757320420803!5m2!1sen!2sin"
                 width="100%"
                 height="250"
                 style={{ border: 0 }}
